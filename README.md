@@ -1,4 +1,4 @@
-### This is an application to calculate scores for 10 pin bowling
+# This is an application to calculate scores for 10 pin bowling
 
 ## The Task
 
