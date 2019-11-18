@@ -1,0 +1,25 @@
+{
+  "name": "bowling",
+  "version": "1.0.0",
+  "description": "## The Task",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdZeno/Bowling.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdZeno/Bowling/issues"
+  },
+  "homepage": "https://github.com/EdZeno/Bowling#readme",
+  "devDependencies": {
+    "eslint": "^6.6.0"
+  }
+}
