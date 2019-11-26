@@ -19,7 +19,5 @@
     "url": "https://github.com/EdZeno/Bowling/issues"
   },
   "homepage": "https://github.com/EdZeno/Bowling#readme",
-  "devDependencies": {
-    "eslint": "^6.6.0"
-  }
+  "devDependencies": {}
 }
