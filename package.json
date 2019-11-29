@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "./spec"
+    "test": "./node_modules/.bin/jasmine-node spec"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
     "url": "https://github.com/EdZeno/Bowling/issues"
   },
   "homepage": "https://github.com/EdZeno/Bowling#readme",
-  "devDependencies": {}
+  "devDependencies": {},
+  "dependencies": {
+    "request": "^2.88.0"
+  }
 }
