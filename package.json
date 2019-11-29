@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "./jasmine-node spec"
+    "test": "./spec"
   },
   "repository": {
     "type": "git",
