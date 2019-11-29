@@ -1,4 +1,4 @@
-// describe("Player", function() {
+describe("Bowling", function() {
 //   var player;
 //   var song;
 //
@@ -7,8 +7,7 @@
 //     song = new Song();
 //   });
 //
-//   it("should be able to play a Song", function() {
-//     player.play(song);
-//     expect(player.currentlyPlayingSong).toEqual(song);
-//     expect(player).toBePlaying(song);
-//   });
+  it("should be able to play a Song", function() {
+    expect(Bowling()).toEqual('hello');
+  });
+});
