@@ -1,4 +1,4 @@
-describe("Bowling", function() {
+describe("bowling", function() {
 //   var player;
 //   var song;
 //
@@ -8,6 +8,6 @@ describe("Bowling", function() {
 //   });
 //
   it("should be able to play a Song", function() {
-    expect(Bowling()).toEqual('hello');
+    expect(bowling()).toEqual('hello');
   });
 });

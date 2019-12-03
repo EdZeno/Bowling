@@ -1,3 +1,3 @@
-let Bowling = function() {
+let bowling = function() {
   return 'hello'
 }
