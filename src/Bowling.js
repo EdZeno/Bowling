@@ -1,3 +1,3 @@
-// let bowling = function() {
-//   return 'hello'
-// }
+let bowling = function() {
+  return 'hello'
+}
