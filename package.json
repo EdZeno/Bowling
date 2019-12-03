@@ -19,9 +19,7 @@
     "url": "https://github.com/EdZeno/Bowling/issues"
   },
   "homepage": "https://github.com/EdZeno/Bowling#readme",
-  "devDependencies": {
-    "jasmine": "^3.5.0"
-  },
+  "devDependencies": {},
   "dependencies": {
     "request": "^2.88.0"
   }
