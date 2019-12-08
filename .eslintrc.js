@@ -3,10 +3,9 @@ module.exports = {
         "browser": true,
         "commonjs": true,
         "es6": true,
-        "node": true,
         "mocha": true,
-        "jest": true,
-        "jasmine": true
+        "jasmine": true,
+        "jest": true
     },
     "extends": "eslint:recommended",
     "globals": {
