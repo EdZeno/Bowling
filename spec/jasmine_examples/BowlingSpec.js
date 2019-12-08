@@ -1,6 +1,7 @@
 describe("createGame", function() {
   var createGame = require('../../lib/jasmine_examples/Bowling');
   // const URLSearchParams = require('url-search-params-polyfill');
+  require('url-search-params-polyfill');
 
   it('should return an object', function() {
   // URLSearchParams(window.location.search);
