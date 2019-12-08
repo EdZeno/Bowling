@@ -1,7 +1,14 @@
-describe("Bowling", function() {
-  var Bowling = require('../../lib/jasmine_examples/Bowling');
-  
-  it("should say hello", function() {
-    expect(Bowling()).toEqual("hello");
-  });
+describe("createGame", function() {
+  var createGame = require('../../lib/jasmine_examples/Bowling');
+  //
+  // it("should say hello", function() {
+  //   expect(Bowling()).toEqual("hello");
+  // });
+  it('should return an object', function() {
+  var params = new URLSearchParams("key1=value1&key2=value2");
+  // var searchParams = new URLSearchParams("key1=value1");
+  console.log(createGame(params))
+  expect(createGame(params)).toEqual([['key1', 'value1'], ['key2', 'value2']])
+  })
+
 });
