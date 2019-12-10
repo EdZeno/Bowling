@@ -3,6 +3,8 @@
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
 #
 version: 2
+orbs:
+  eslint: arrai/eslint@1.3.0
 jobs:
   build:
     docker:
@@ -35,4 +37,4 @@ jobs:
 
       # run tests!
       - run: yarn test
-      - run: yarn lint
+      - run: eslint

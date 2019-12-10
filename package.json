@@ -7,8 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "jasmine",
-    "lint": "eslint"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
