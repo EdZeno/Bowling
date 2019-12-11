@@ -35,4 +35,4 @@ jobs:
 
       # run tests!
       - run: yarn test
-      - run: yarn lint "/lib"
+      - run: yarn lint "CalculateScore.js"
