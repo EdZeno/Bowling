@@ -23,3 +23,7 @@ div.score
   display: block;
   text-align: center;
 }
+body {
+  background-image: url(./images/bowling.jpg);
+  background-size: cover;
+}
