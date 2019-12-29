@@ -18,12 +18,17 @@ div.header
   display: block;
   text-align: center;
 }
+div.title
+{
+  display: block;
+  text-align: center;
+}
 div.score
 {
   display: block;
   text-align: center;
 }
 body {
-  background-image: url(./images/bowling.jpg);
+  background-image: url(bowling.jpg);
   background-size: cover;
 }

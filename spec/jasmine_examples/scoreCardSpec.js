@@ -1,5 +1,6 @@
 describe("createGame", function() {
   let createScoreCard = require('../../lib/jasmine_examples/scoreCard');
+  // import { createScoreCard } from '../../lib/jasmine_examples/scoreCard'
   require('url-search-params-polyfill');
 
   it('should return an object', function() {

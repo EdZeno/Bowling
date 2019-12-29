@@ -1,4 +1,4 @@
-describe('calculateScorescore', function() {
+describe('calculateScore', function() {
   let createScoreCard = require('../../lib/jasmine_examples/scoreCard');
   let calculateScore = require('../../lib/jasmine_examples/calculateScore');
 

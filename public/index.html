@@ -4,6 +4,17 @@
   <meta charset="utf-8">
   <title></title>
   <link rel="stylesheet" href="style.css">
+  <!-- <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script> -->
+
+  <!-- <script type="module">
+  import {createScoreCard} from "./lib/jasmine_examples/scoreCard.js";
+  </script>
+
+  <script src="./lib/jasmine_examples/calculateScore.js"></script> -->
+  <!-- <script src="./jquery.js"></script> -->
 </head>
 <div class="header">
   <h1> BOWLING SCORECARD </h1>
@@ -32,12 +43,15 @@
       Frame 10 Roll 1<input type="number" min="0" step="1" max="10" name="F10R1">
       Frame 10 Roll 2<input type="number" min="0" step="1" max="10" name="F10R2"><br>
       Frame 10 Roll 3<input type="number" min="0" step="1" max="10" name="F10R3"><br>
-      <input type="submit" value="Calculate">
+      <input id="trigger" type="submit" value="Calculate">
     </form>
   </div>
+  <div class="title">
+    YOUR SCORE:
+  </div>
   <div class="score">
-    YOUR SCORE:<br>
     0
   </div>
+
 </body>
 </html>
